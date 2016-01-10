@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JEf-WB-QGM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--I-->
+        <scene sceneID="O9e-AV-aHi">
+            <objects>
+                <tableViewController id="JEf-WB-QGM" userLabel="I" customClass="InfoTableViewController" customModule="autoLayoutInTableViewCell" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" dataMode="static" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="PXd-lI-gIR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="ASB-M9-uPK">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="1154" id="6Ib-1H-VEA">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="1154"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Ib-1H-VEA" id="weC-6N-qa6">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="1154"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Инфо" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GIh-Sh-HyS">
+                                                    <rect key="frame" x="0.0" y="0.0" width="600" height="23"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="23" id="Aqp-w5-aJx"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4pDBlHD0i_A" translatesAutoresizingMaskIntoConstraints="NO" id="n3T-L5-r4N">
+                                                    <rect key="frame" x="8" y="31" width="270" height="198"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="198" id="51M-l0-1ab"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Завод корпорации Шен Лунг (Happiness)" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZC-d8-fDd">
+                                                    <rect key="frame" x="286" y="31" width="306" height="198"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="198" id="UHm-w5-jDm"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Face" translatesAutoresizingMaskIntoConstraints="NO" id="jqg-aE-brd">
+                                                    <rect key="frame" x="286" y="237" width="306" height="169"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="169" id="Bk6-te-5PP"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="О корпорации" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuG-eu-Cpo">
+                                                    <rect key="frame" x="8" y="414" width="584" height="28"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Директор компании - Чжоу Веньцин" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0y-8Q-tBo">
+                                                    <rect key="frame" x="8" y="237" width="270" height="169"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="751" verticalHuggingPriority="751" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQ1-Vm-6OZ">
+                                                    <rect key="frame" x="8" y="450" width="584" height="95"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="b8D-DP-y1z"/>
+                                                    </constraints>
+                                                    <string key="text">Гонконгская корпорация Шен Лунг (в дальнейшем именуемая Шен Лунг HAPPINESS) стратегически развивается на мировом рынке, внедряя культуру традиционной китайской медицины и оздоровления нации. Дочерние филиалы корпорации в Китае представлены Обществом с Ограниченной Ответственностью по производству оздоровительной продукции Шен Лунг в округе Юньчэн провинции Шаньдун, Международной Торговой Компании Шен Лунг в провинции Тяньцзинь, Фармацевтической компанией ООО "Бэйкер", торговой компанией "Шен Лунг Здоровье" в городе Тяньцзинь, Обществом с ограниченной ответственностью "Сунмаотан" (г. Тяньцзинь). На сегодняшний день корпорация Шен Лунг (HAPPINESS) проявила себя в сферах биотехнологий, управления здравоохранения, образования и профессиональной подготовки кадров, электронной коммерции, финансовых вложений, а также в сфере промышленности, торговых и финансовых инвестиций в транснациональные корпорации. Деятельность корпорации охватила 50 стран мира, в 10 странах и регионах открыты филиалы, со многими первоклассными предприятиями в разных странах мира образовала стратегический альянс. Корпорация Шен Лунг (HAPPINESS) преуспела в инновациях в сфере исследований и разработок здорового питания, медицинского оборудования, косметологии, товаров для дома и других продуктов. Уже около 10 миллионов семей, а также промышленных партнеров ощутили высококачественную жизнь благодаря приобретенному здоровью, счастью и достатку.     Имея научно-исследовательский центр и центр по контролю за качеством международного стандарта, компания опирается на тенденцию "глобализации информации",  берет за основу стратегию "масштабного оздоровления наций". Посредством модернизированного производственного цеха и стабильного развития индустриального парка, корпорация Шен Лунг (HAPPINESS) взяв за основу «Качество. Сервис. Командная победа», предоставляет высококлассный сервис для наших клиентов, а также создает надёжную платформу для бизнес элиты и партнеров компании. 
+     Корпорация Шен Лунг (HAPPINESS) имеет индивидуальный бренд, большую линейку продукции, а также тщательно продуманный маркетинг-план, следуя которому, Вам предоставляются огромные возможности. Имея огромные масштабы производства высокого качества продукции и добросовестный профессиональный рабочий коллектив, корпорация получила высокую оценку потребителей.
+    Оглядываясь на уже сделанное и обозревая перспективы будущего, Мы дорожим каждой минутой,  уверенно строим наш бизнес согласно современным требованиям и передовым технологиям, направляем силы на внедрение технических, режимных, управленческих и рыночных инноваций, привлекаем таланты и создаем новую продукцию. Мы также непрерывно раскрываем скрытые потенциалы и возможности нашей компании, внедряем производственную и финансовую деятельности для оптимизации активов. Мы ежедневно стремимся только к лучшему и только вместе с Вами!</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="jqg-aE-brd" secondAttribute="trailing" id="09X-R7-HR9"/>
+                                                <constraint firstItem="GIh-Sh-HyS" firstAttribute="top" secondItem="weC-6N-qa6" secondAttribute="top" id="H5B-Dd-zoM"/>
+                                                <constraint firstItem="KQ1-Vm-6OZ" firstAttribute="top" secondItem="TuG-eu-Cpo" secondAttribute="bottom" constant="8" id="IMa-tl-32i"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="U0y-8Q-tBo" secondAttribute="leading" id="J2e-Hc-VMU"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="TuG-eu-Cpo" secondAttribute="trailing" id="KCw-VX-k0T"/>
+                                                <constraint firstItem="TuG-eu-Cpo" firstAttribute="top" secondItem="U0y-8Q-tBo" secondAttribute="bottom" constant="8" id="Kji-hT-M1u"/>
+                                                <constraint firstItem="jqg-aE-brd" firstAttribute="leading" secondItem="U0y-8Q-tBo" secondAttribute="trailing" constant="8" id="LOS-ga-idb"/>
+                                                <constraint firstItem="GIh-Sh-HyS" firstAttribute="leading" secondItem="weC-6N-qa6" secondAttribute="leading" id="Nec-zz-sd8"/>
+                                                <constraint firstItem="KQ1-Vm-6OZ" firstAttribute="top" secondItem="weC-6N-qa6" secondAttribute="topMargin" constant="442" id="O3b-Un-fie"/>
+                                                <constraint firstItem="U0y-8Q-tBo" firstAttribute="width" secondItem="weC-6N-qa6" secondAttribute="width" multiplier="0.45" id="Ofz-vg-Dh3"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="KQ1-Vm-6OZ" secondAttribute="trailing" id="Q6B-WZ-n0c"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="TuG-eu-Cpo" secondAttribute="leading" id="Qci-U7-p0Y"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="KQ1-Vm-6OZ" secondAttribute="leading" id="UPE-vg-h5j"/>
+                                                <constraint firstItem="jqg-aE-brd" firstAttribute="top" secondItem="nZC-d8-fDd" secondAttribute="bottom" constant="8" id="UWS-Bp-R9x"/>
+                                                <constraint firstItem="nZC-d8-fDd" firstAttribute="top" secondItem="GIh-Sh-HyS" secondAttribute="bottom" constant="8" id="Wiz-lc-ZsX"/>
+                                                <constraint firstItem="U0y-8Q-tBo" firstAttribute="top" secondItem="n3T-L5-r4N" secondAttribute="bottom" constant="8" id="X4G-fc-49j"/>
+                                                <constraint firstItem="nZC-d8-fDd" firstAttribute="leading" secondItem="n3T-L5-r4N" secondAttribute="trailing" constant="8" id="Zbi-n9-8V1"/>
+                                                <constraint firstItem="n3T-L5-r4N" firstAttribute="top" secondItem="GIh-Sh-HyS" secondAttribute="bottom" constant="8" id="Zh4-Gh-ISN"/>
+                                                <constraint firstItem="n3T-L5-r4N" firstAttribute="width" secondItem="weC-6N-qa6" secondAttribute="width" multiplier="0.45" id="c4f-xW-Uyk"/>
+                                                <constraint firstAttribute="leadingMargin" secondItem="n3T-L5-r4N" secondAttribute="leading" id="fTP-v5-NNX"/>
+                                                <constraint firstAttribute="trailing" secondItem="GIh-Sh-HyS" secondAttribute="trailing" id="s7j-ZB-nYd"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="nZC-d8-fDd" secondAttribute="trailing" id="zmf-hH-RSF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="JEf-WB-QGM" id="IcB-dw-0Ud"/>
+                            <outlet property="delegate" destination="JEf-WB-QGM" id="b5m-1V-JXe"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="jra-TT-58U">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="d5J-cw-b6y">
+                            <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="list" id="is8-Pp-mrz">
+                            <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="showCatalog:" destination="JEf-WB-QGM" id="RIX-ER-z0b"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="1000"/>
+                    <connections>
+                        <outlet property="aboutCorp" destination="KQ1-Vm-6OZ" id="vMu-lG-fgS"/>
+                        <outlet property="leftMenu" destination="d5J-cw-b6y" id="aLf-aP-aDv"/>
+                        <outlet property="tableView" destination="PXd-lI-gIR" id="HhM-ui-8Gw"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1K2-bg-I5V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2984" y="-503"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="4pDBlHD0i_A" width="200" height="200"/>
+        <image name="Face" width="1136" height="753"/>
+        <image name="list" width="260" height="194"/>
+        <image name="menu" width="260" height="194"/>
+    </resources>
+</document>
